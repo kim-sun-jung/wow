@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llayer_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="@string/phone_number1" android:layout_width="wrap_content"
+                    android:id="@+id/tv_info"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llayer_app_info"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/llayer_info"
+                android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_app_info"
+                    android:text="@string/app_info" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llayer0"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/llayer_app_info"
+                android:layout_height="wrap_content">
+                <TextView android:id="@+id/tv_app_info2"
+                    android:text="1111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llayer1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/llayer0"
+                android:layout_height="wrap_content">
+                <TextView android:text="@string/phone_number1" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/phone_number2" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/p_number"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/llayer2"
+                android:layout_below="@+id/llayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="@string/version_name1" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/version_name2" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/v_name"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llayer3"
+                android:layout_below="@+id/llayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="@string/version_code1" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView android:text="@string/version_code2" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/v_code"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llayer4"
+                android:layout_below="@+id/llayer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btn_del_app"
+                    android:text="앱삭제하기"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+         </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

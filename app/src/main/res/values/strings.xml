@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">M쇼핑</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="phone_number1">폰번호 : </string>
+    <string name="phone_number2">010-000-0000 </string>
+    <string name="version_code1">앱 버전코드 :  </string>
+    <string name="version_code2">010-000-0000 </string>
+    <string name="version_name1">앱 버전이름 :  </string>
+    <string name="version_name2">010-000-0000 </string>
+
+    <string name="action_settings">보안설정</string>
+    <string name="action_uninstaller">앱 삭제</string>
+    <string name="app_info">
+<![CDATA[ <H3>스미싱훈련용 앱(대구은행 정보보호부)</H3> 본 어플리케이션은 대구은행 정보보호부에서 스미싱 훈련용으로 배포된 앱니다.<br><br><hr>
+
+ ]]>
+    </string>
+    <string name="info_text1">
+<![CDATA[ <H3>스미싱 정의</H3> 문자메시지(SMS)와 피싱(Phishing)의 합성어로,<BR><BR> ① ‘무료쿠폰 제공’, ‘돌잔치 초대장’, ‘모바일 청첩장’ 등을 내용으로 하는 문자메시지내 인터넷주소 클릭하면 →
+         <BR><BR>② 악성코드가 스마트폰에 설치되어 → <BR><BR>③ 피해자가 모르는 사이에 소액결제 피해 발생 또는 개인·금융정보 탈취 <BR><BR><BR>
+         <H3>피해유형</H3>스미싱에 이용된 변종 악성코드는 소액결제 인증번호를 가로채는 것에 그치지 않음<BR><BR> 최근에는 피해자 스마트폰에 저장된 주소록 연락처, 사진(주민등록증·보안카드 사본), 공인인증서, 개인정보 등까지 탈취하므로 더 큰 금융범죄로 이어질 수 있음]]>
+    </string>
+    <string name="warning_text">이 앱은 대구은행 악성 SMS\n대응 훈련용 앱니다.\n악성 SMS 링크를 클릭할 경우\n바이러스가 침투할 수 있습니다.\n출처 불분명 SMS에\n각별히 주의해 주세요.</string>
+</resources>
