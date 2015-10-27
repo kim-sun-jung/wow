@@ -7,9 +7,9 @@ import android.content.SharedPreferences;
  * Created by sjkim on 2015. 4. 3..aa
  */
 public class Config {
-    //public static final String BASE_URL = "http://172.25.201.171:9080/";//"http://172.18.6.126/"; //https://office.dgb.co.kr/
+
     public static final boolean DEBUG = false;
-    public static final String BASE_URL = DEBUG?"http://172.18.6.126/":"https://office.dgb.co.kr/";
+    public static final String BASE_URL = DEBUG?"http://172.18.6.126/":"https://localhost/";
     public static final String BASE_API_STR = "worklight/invoke";
     public static final int RETRY_TIME =  DEBUG?(60 * 1000) : (2 * 60 * 60 * 1000); //서버전송 2시간 - 2 * 60 * 60 * 1000
     public static final int FINISH_COUNT = DEBUG? 1 : 1; //성공 횟수
