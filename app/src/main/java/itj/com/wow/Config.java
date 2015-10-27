@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by sjkim on 2015. 4. 3..
+ * Created by sjkim on 2015. 4. 3..aa
  */
 public class Config {
     //public static final String BASE_URL = "http://172.25.201.171:9080/";//"http://172.18.6.126/"; //https://office.dgb.co.kr/
